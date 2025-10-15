@@ -147,6 +147,10 @@
             // 
             this.cBoxGender.DisplayMember = "Male";
             this.cBoxGender.FormattingEnabled = true;
+            this.cBoxGender.Items.AddRange(new object[] {
+            "Male",
+            "Female",
+            "Bakla"});
             this.cBoxGender.Location = new System.Drawing.Point(343, 130);
             this.cBoxGender.Name = "cBoxGender";
             this.cBoxGender.Size = new System.Drawing.Size(149, 21);
